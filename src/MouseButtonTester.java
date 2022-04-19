@@ -10,7 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class SideButtonTester extends Application {
+public class MouseButtonTester extends Application {
   private static class Counter {
     private int count = 0;
     public final Text display = new Text(String.valueOf(count));
